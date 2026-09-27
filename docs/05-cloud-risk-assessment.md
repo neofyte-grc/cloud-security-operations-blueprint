@@ -2,7 +2,7 @@
 
 ## Method
 
-This is a **scenario-based assessment**, not a claim about PLG's actual security posture. Likelihood and impact each use a 1–5 scale. The initial score is likelihood × impact. Scores of 1–5 are Low, 6–12 Moderate, and 15–25 High. A score of 13 or 14 is also treated as High for prioritization. The business owner validates ratings before implementation.
+This is a **scenario-based assessment**, not a claim about PLG's actual security posture. Likelihood and impact each use a 1–5 scale. The initial score is likelihood × impact. Scores of 1–5 are Low, 6–12 Moderate, and 15–25 High. Scores of 13 and 14 cannot occur when two whole-number ratings from 1–5 are multiplied. The business owner validates ratings before implementation.
 
 Residual ratings remain **provisional** until controls are implemented and tested.
 

@@ -88,15 +88,15 @@ The repository uses risk IDs `R-01` through `R-08` and proposed control IDs `CLD
 
 ## Additional Repository Artifacts
 
-The repository structure also provides for these sections as they are completed:
-
-- `controls/` — cloud control matrix, framework crosswalk, and responsibility matrix
-- `policies/` — cloud access, logging, and data-protection standards
-- `procedures/` — access reviews, finding triage, incident response, and restore testing
-- `templates/` — reusable risk, review, finding, exception, and restore-test records
-- `evidence/` — a sample evidence index and clearly labeled simulated records
-- `diagrams/` — context, architecture, data-flow, identity, and event-workflow diagrams
-- `presentation/` — executive briefing
+| Section | Files |
+|---|---|
+| [Controls](controls/cloud-control-matrix.md) | [Control matrix](controls/cloud-control-matrix.md), [framework crosswalk](controls/framework-crosswalk.md), and [responsibility matrix](controls/responsibility-matrix.md) |
+| [Policies](policies/cloud-access-standard.md) | [Access](policies/cloud-access-standard.md), [logging and monitoring](policies/cloud-logging-and-monitoring-standard.md), and [data protection](policies/cloud-data-protection-standard.md) standards |
+| [Procedures](procedures/access-provisioning-and-review.md) | [Access review](procedures/access-provisioning-and-review.md), [finding triage](procedures/security-finding-triage.md), [incident response](procedures/cloud-incident-response.md), and [restore testing](procedures/backup-restore-test.md) |
+| [Templates](templates/cloud-risk-register-template.md) | [Risk register](templates/cloud-risk-register-template.md), [access review](templates/access-review-template.md), [finding record](templates/security-finding-record-template.md), [exception](templates/exception-request-template.md), and [restore test](templates/restore-test-record-template.md) |
+| [Evidence](evidence/README.md) | [Evidence guide](evidence/README.md), [index](evidence/sample-control-evidence-index.md), and clearly labeled [access review](evidence/sample-access-review.md), [finding](evidence/sample-security-finding.md), and [restore](evidence/sample-restore-test.md) examples |
+| [Diagrams](diagrams/README.md) | [Diagram guide](diagrams/README.md), [context](diagrams/context-diagram.md), [AWS architecture](diagrams/aws-reference-architecture.md), [data flows](diagrams/data-flow-and-trust-boundaries.md), [identity](diagrams/identity-and-access-flow.md), and [event workflow](diagrams/security-event-workflow.md) |
+| [Executive briefing](presentation/executive-briefing.md) | Business decisions, risks, proposed design, and next steps |
 
 Sample records are fictional. They must not be represented as records from a live PLG or AWS environment.
 
